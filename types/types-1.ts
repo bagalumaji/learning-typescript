@@ -43,3 +43,5 @@ enum Direction{
 
 console.log(Direction.bottom);
 
+
+
