@@ -32,3 +32,14 @@ function demo():void{
     console.log("hello world");
 }
 
+//enum
+
+enum Direction{
+    top="TOP",
+    bottom="BOTTOM",
+    left="LEFT",
+    right="RIGHT"
+}
+
+console.log(Direction.bottom);
+
