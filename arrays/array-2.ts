@@ -21,3 +21,10 @@ console.log(vals);
 // map
 const v1 = values.map(v=>v+10);
 console.log(v1);
+
+// flatmap
+const t=[1,2,[3,4,[5]]];
+
+const flatMapArr = t.flatMap(v=>v);
+console.log(flatMapArr)
+
