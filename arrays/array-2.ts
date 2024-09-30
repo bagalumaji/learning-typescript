@@ -17,3 +17,7 @@ values.forEach(val=>console.log(val));
 //filter
 const vals = values.filter(v=>v%2==0);
 console.log(vals);
+
+// map
+const v1 = values.map(v=>v+10);
+console.log(v1);
