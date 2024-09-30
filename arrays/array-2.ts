@@ -10,3 +10,6 @@ console.log(sum);
 
 const reduceRight = values.reduceRight((a,s)=>a+s,0);
 console.log(reduceRight);
+
+//foreach
+values.forEach(val=>console.log(val));
