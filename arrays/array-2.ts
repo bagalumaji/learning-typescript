@@ -34,3 +34,6 @@ console.log(flatArr);
 for(let v of t){
     console.log(v);
 }
+const t1=[1,2,[3,4,[5,[6]]]];
+const s =t1.join("-")
+console.log(s)
