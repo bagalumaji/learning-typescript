@@ -13,3 +13,7 @@ console.log(reduceRight);
 
 //foreach
 values.forEach(val=>console.log(val));
+
+//filter
+const vals = values.filter(v=>v%2==0);
+console.log(vals);
