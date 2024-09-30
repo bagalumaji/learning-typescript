@@ -30,3 +30,7 @@ console.log(flatMapArr)
 
 const flatArr = t.flat(2);
 console.log(flatArr);
+
+for(let v of t){
+    console.log(v);
+}
