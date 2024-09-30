@@ -1,4 +1,4 @@
-const nums=[11,22,33,44,55,66,77]
+const nums=[11,22,33,44,55,33,66,77]
 console.log(`array elements : ${nums}`)
 
 // console.log(nums.push(99)); // add element and return the lenght of array
@@ -15,7 +15,8 @@ console.log(`array elements : ${nums}`)
 
 // console.log(str)
 
-console.log(nums.indexOf(33));
+console.log(nums.indexOf(33));  // 1st occurance of ele
 
+console.log(nums.lastIndexOf(33)); // last occuranc of ele
 
 
