@@ -28,3 +28,5 @@ const t=[1,2,[3,4,[5]]];
 const flatMapArr = t.flatMap(v=>v);
 console.log(flatMapArr)
 
+const flatArr = t.flat(2);
+console.log(flatArr);
