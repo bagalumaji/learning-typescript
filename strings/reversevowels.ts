@@ -4,16 +4,21 @@ function reverseVowels(str: string): void {
     let rp = str.length - 1;
     const vowels: string = 'aeiou';
     while (lp < rp) {
+        // @ts-ignore
         if (vowels.includes(charArray[lp]) && vowels.includes(charArray[rp])) {
             let t = charArray[lp];
             charArray[lp] = charArray[rp];
             charArray[rp] = t;
             lp++;
             rp--;
-        } else if (!(vowels.includes(charArray[lp]))) {
-            lp++;
-        } else if (!(vowels.includes(charArray[rp]))) {
-            rp--;
+        } else { // @ts-ignore
+            if (!(vowels.includes(charArray[lp]))) {
+                lp++;
+            } else { // @ts-ignore
+                if (!(vowels.includes(charArray[rp]))) {
+                    rp--;
+                }
+            }
         }
     }
 
