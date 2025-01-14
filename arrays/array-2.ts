@@ -1,7 +1,7 @@
 const arr=['abc','hi','hello','js'];
-const findIndex = arr.findIndex(a => a.length>=2);
-console.log(findIndex);
-console.log(arr.find(s => s.length >= 2));
+// const findIndex = arr.findIndex(a => a.length>=2);
+// console.log(findIndex);
+// console.log(arr.find(s => s.length >= 2));
 
 const values=[1,2,3,4,5];
 
@@ -25,11 +25,11 @@ console.log(v1);
 // flatmap
 const t=[1,2,[3,4,[5]]];
 
-const flatMapArr = t.flatMap(v=>v);
-console.log(flatMapArr)
-
-const flatArr = t.flat(2);
-console.log(flatArr);
+// const flatMapArr = t.flatMap(v=>v);
+// console.log(flatMapArr)
+//
+// const flatArr = t.flat(2);
+// console.log(flatArr);
 
 for(let v of t){
     console.log(v);
